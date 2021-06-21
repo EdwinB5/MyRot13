@@ -38,4 +38,6 @@ def myRot(text, n):
 
 	return textEncrypt
 
-print(myRot('Hola12 Mundo321', 13))
+def myTitle(x):
+		myWords = {0:'Oh no', 1:'Hello!', 2:'OMG', 3: 'It works', 4: 'Yes!', 5: 'Nope'}
+		return myWords[x]
